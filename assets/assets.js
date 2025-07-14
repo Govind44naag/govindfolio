@@ -99,6 +99,12 @@ export const workData = [
         bgImage: '/task-overflow.png',
         link:'https://task-overflow-pi.vercel.app',
     },
+    {
+        title: 'Portfolio',
+        description: 'Web Design',
+        bgImage: '/govindfolio.png',
+        link:'https://govindfolio.vercel.app',
+    },
      
      
 ]
