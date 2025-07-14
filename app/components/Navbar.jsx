@@ -32,7 +32,9 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
          ''
     }`}>
         <a href="#top">
-                <Image src={isDarkMode ? assets.logo_dark1 : assets.logo} alt='' className='w-28 alt="" cursor-pointer
+                {/* <Image src={isDarkMode ? assets.logo_dark1 : assets.logo} alt='' className='w-28 alt="" cursor-pointer
+                mr-14 rounded-full'/> */}
+                <Image src={ assets.logo_dark1  } alt='' className='w-28 alt="" cursor-pointer
                 mr-14 rounded-full'/>
         </a> 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8
@@ -68,8 +70,7 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
            
             <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#about">About me</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#work">My Work</a></li>
+             <li><a className='font-Ovo' onClick={closeMenu} href="#work">My Work</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact me</a></li>
               
         </ul>
