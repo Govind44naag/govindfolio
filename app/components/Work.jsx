@@ -50,7 +50,7 @@ const Work = ({isDarkMode}) => {
           </div>
           <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
             {assets.send_icon && (
-                <a target='_blank' href={project.link} ><Image src={assets.send_icon} alt="send icon" className="w-4 sm:w-5" /></a>
+                <a target='_blank' href={project.link} ><Image src={assets.send_icon} alt="send icon" className="w-4 sm:w-5 hover:bg-green-500" /></a>
             )}
           </div>
          </div>
