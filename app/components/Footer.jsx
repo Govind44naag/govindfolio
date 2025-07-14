@@ -5,15 +5,25 @@ import React from 'react'
 const Footer = ({isDarkMode}) => {
   return (
     <div className='mt-20'>
-      <div className='text-center'>
-        {/* <Image src={isDarkMode ? assets.logo_dark1 : assets.logo} alt='' className='w-36 mx-auto mb-2 rounded-full' /> */}
-                <Image src={ assets.logo_dark1 } alt='' className='w-36 mx-auto mb-2 rounded-full' />
+      <div className="text-center">
+  {/* Logo */}
+  <Image
+    src={assets.logo_dark1}
+    alt=""
+    className="w-36 mx-auto mb-2 rounded-full"
+  />
 
-        <div>
-            <Image src={isDarkMode ? assets.mail :  assets.mail_icon} alt='' className='w-6' />
-            govindnaag44@gmail.com  
-        </div>
-      </div>
+  {/* Mail section */}
+  <div className="flex items-center justify-center gap-1">
+    <Image
+      src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
+      alt="Mail Icon"
+      className="w-5 h-5"
+    />
+    <span className="text-sm">govindnaag44@gmail.com</span>
+  </div>
+</div>
+
       <div className='text-center sm:flex items-center justify-between border-t 
       border-gray-400 mx-[10%] mt-12 py-6'>
         <p> &copy; 2025 Govind Naag. All rights reserved.</p>
