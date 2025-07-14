@@ -15,11 +15,13 @@ const Footer = ({isDarkMode}) => {
 
   {/* Mail section */}
   <div className="flex items-center justify-center gap-1">
+    <a href='mailto:govindnaag44@gmail.com'>
     <Image
       src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
       alt="Mail Icon"
       className="w-5 h-5"
     />
+    </a>
     <span className="text-sm">govindnaag44@gmail.com</span>
   </div>
 </div>
