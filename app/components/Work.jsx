@@ -48,9 +48,9 @@ const Work = ({isDarkMode}) => {
             <h2 className="font-bold text-sm sm:text-base text-black truncate">{project.title}</h2>
             <p className="text-xs sm:text-sm text-gray-700 line-clamp-2">{project.description}</p>
           </div>
-          <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+          <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 hover:bg-green-500 transition">
             {assets.send_icon && (
-                <a target='_blank' href={project.link} ><Image src={assets.send_icon} alt="send icon" className="w-4 sm:w-5 hover:bg-green-500" /></a>
+                <a target='_blank' href={project.link} ><Image src={assets.send_icon} alt="send icon" className="w-4 sm:w-5 " /></a>
             )}
           </div>
          </div>
