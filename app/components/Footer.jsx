@@ -17,7 +17,9 @@ const Footer = ({ isDarkMode }) => {
         <div className="flex items-center justify-center gap-1">
           <a href='mailto:govindnaag44@gmail.com'>
             <Image
-              src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
+              // src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
+              src={  assets.mail_icon_dark  }
+
               alt="Mail Icon"
               className="w-5 h-5"
             />

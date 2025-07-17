@@ -64,7 +64,8 @@ const About = ({ isDarkMode }) => {
                 key={index}
               >
                 <Image
-                  src={isDarkMode ? iconDark : icon}
+                  // src={isDarkMode ? iconDark : icon}
+                  src={ iconDark}
                   alt={title}
                   className={`w-7 mt-3 mx-auto transition duration-300
     dark:group-hover:invert`} // <-- flips icon color in dark mode
