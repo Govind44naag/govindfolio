@@ -105,6 +105,12 @@ export const workData = [
         bgImage: '/govindfolio.png',
         link:'https://govindfolio.vercel.app',
     },
+    {
+        title: 'Ai Chat Plateform',
+        description: 'Web Design',
+        bgImgage: '/chatapp.png',
+        link:'https://ai-chat-five-fawn.vercel.app',
+    }
      
      
 ]
