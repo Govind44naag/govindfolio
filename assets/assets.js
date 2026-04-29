@@ -110,7 +110,7 @@ export const workData = [
         description: 'Web Design',
         bgImgage: '/chatapp.png',
         link:'https://ai-chat-five-fawn.vercel.app',
-    }
+    },
      
      
 ]
